@@ -27,8 +27,8 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
-  background: var(--background-color);
-  color: var(--text-color-black);
+  background: #282645;
+  color: var(--text-color-white);
   background-repeat: no-repeat;
   min-height: 100vh;
 }
@@ -139,7 +139,7 @@ p {
   padding: 0 1.3rem;
 }
 
-.footer aside a:hover svg{
+.footer aside a:hover svg {
   fill: var(--text-color-hover);
 }
 
@@ -174,7 +174,6 @@ p {
   .header-nav {
     margin: auto;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -185,7 +184,6 @@ p {
   .header {
     padding: 0.8rem 2rem;
   }
-
 }
 
 /* ***** Dark Theme ***** */
