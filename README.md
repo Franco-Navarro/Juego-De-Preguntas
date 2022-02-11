@@ -5,7 +5,7 @@ cada jugador sera sometido a diversas preguntas y el jugador con mas respuestas 
 
 ## WebSite
 
-[Pregunta Pregunta?](https://franco-navarro.github.io/Pomodoro-Timer/).
+[Pregunta Pregunta?](https://franco-navarro.github.io/Preguntas-Trivial/).
 
 ## Construido con 🛠️
 
