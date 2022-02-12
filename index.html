@@ -52,57 +52,54 @@
 
   <body class="body">
     <header class="header">
-      <div class="container">
-        <img src="assets/icon/5.png" alt="">
-        <h1>Ganador</h1>
+      <div class="header-container">
+        <img src="assets/icon/10.png" alt="">
+        <h1>Preguntas</h1>
       </div>
     </header>
 
-    <section class="options section none">
+    <section class="options ">
       <div class="container" >
           <article class="options-game">
             <h2>Opciones</h2>
             <div class="options-game-number">
               <label for="number-players">Numero de Participantes</label>
-              <input type="number" min="1" max="4" value="1" name="number-players" id="number-players">
-              
+              <input type="number" min="1" max="4" placeholder="1" name="number-players" id="number-players">
             </div>
-            <span>Min 1 Max 4</span>
             <div class="options-game-player">
               <label for="number-questions">Cantidad de Preguntas</label>
-              <input type="number" min="10" max="20" value="10" name="number-questions" id="number-questions">
+              <input type="number" min="10" max="20" placeholder="10" name="number-questions" id="number-questions">
               
             </div>
-            <span>Min 10 Max 20</span>
           </article>
           <article class="options-player">
             <h2>Jugadores</h2>
-            <div class="player">
+            <div class="options-player-name">
               <img src="assets/icon/1.png" alt=""> 
               <label>Jugador 1</label>
-              <input type="text" name="player-1" id="player-1">
+              <input type="text" name="player-1" id="player-1" placeholder="Jugador 1">
             </div>
-            <div class="player">
+            <div class="options-player-name">
               <img src="assets/icon/5.png" alt=""> 
               <label>Jugador 2</label>
-              <input type="text" name="player-2" id="player-2">
+              <input type="text" name="player-2" id="player-2" placeholder="Jugador 2">
             </div>
-            <div class="player">
+            <div class="options-player-name">
               <img src="assets/icon/7.png" alt=""> 
               <label>Jugador 3</label>
-              <input type="text" name="player-3" id="player-3">
+              <input type="text" name="player-3" id="player-3" placeholder="Jugador 3">
             </div>
-            <div class="player">
+            <div class="options-player-name">
               <img src="assets/icon/4.png" alt=""> 
               <label>Jugador 4</label>
-              <input type="text" name="player-4" id="player-4">
+              <input type="text" name="player-4" id="player-4" placeholder="Jugador 4">
             </div>
           </article>
-          <button class="button">Jugar</button>
+          <button class="options-button button">Jugar</button>
       </div>
     </section>
 
-    <section class="game section full-screen none">
+    <section class="game none">
       <div class="container">
         <article class="game-question">
           <h5>Pregunta 1/20</h5>
@@ -111,19 +108,19 @@
           </p>
         </article>
         <article class="game-answer">
-          <button class="game-button answer-1">
+          <button class="game-button button">
             <div class="game-button-circle">
               <p>A</p>
             </div>
             <p class="game-button-answer">George R.R. Martin</p>
           </button>
-          <button class="game-button answer-2">
+          <button class="game-button button">
             <div class="game-button-circle">
               <p>B</p>
             </div>
             <p class="game-button-answer">Brandon Sanderson</p>
           </button>
-          <button class="game-button answer-3">
+          <button class="game-button button">
             <div class="game-button-circle">
               <p>C</p>
             </div>
@@ -139,7 +136,7 @@
       </div>
     </section>
 
-    <section class="results section full-screen">
+    <section class="results none">
       <div class="container">
         <article class="results-winner">
           <p>
