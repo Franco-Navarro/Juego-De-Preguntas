@@ -54,11 +54,26 @@
     <header class="header">
       <div class="header-container">
         <img src="assets/icon/10.png" alt="">
-        <h1>Preguntas</h1>
+        <h1>Preguntas?</h1>
       </div>
     </header>
 
-    <section class="options ">
+    <article class="modal">
+      <div class="modal-container">
+        <h2>Como Jugar</h2>
+        <ul class="modal-list">
+          <li><b>Jugadores:</b> De 1 a 4 jugadores</li>
+          <li><b>Preguntas:</b> De 10 a 20 por jugador</li>
+          <li><b>Tiempo:</b> 60 segundos por pregunta en cada ronda</li>
+          <li><b>Objetivo:</b> Cada jugador tendra que contestar la misma cantidad de preguntas. <br>
+            Las preguntas se responderan en rondas: Cada jugador respondera su primer pregunta en orden (Jugador 1, 2, 3, 4), luego la siguiente ronda de preguntas, asi sucesivamente hasta finalizar las rondas.<br>
+            El jugador con mas respuestas correctas al finalizar la partida es el ganador.</li>
+        </ul>
+        <button class="button" id="modal-button" onclick="document.querySelector('.modal').classList.add('none')">Cerrar</button>
+      </div>
+    </article>
+
+    <section class="options" id="options">
       <div class="container" >
           <article class="options-game">
             <h2>Opciones</h2>
@@ -74,36 +89,36 @@
           </article>
           <article class="options-player">
             <h2>Jugadores</h2>
-            <div class="options-player-name">
+            <div class="options-player-name" id="player">
               <img src="assets/icon/1.png" alt=""> 
               <label>Jugador 1</label>
-              <input type="text" name="player-1" id="player-1" placeholder="Jugador 1">
+              <input type="text" name="player-1" id="player-name" placeholder="Jugador 1">
             </div>
-            <div class="options-player-name">
+            <div class="options-player-name none" id="player">
               <img src="assets/icon/5.png" alt=""> 
               <label>Jugador 2</label>
-              <input type="text" name="player-2" id="player-2" placeholder="Jugador 2">
+              <input type="text" name="player-2" id="player-name" placeholder="Jugador 2">
             </div>
-            <div class="options-player-name">
+            <div class="options-player-name none" id="player">
               <img src="assets/icon/7.png" alt=""> 
               <label>Jugador 3</label>
-              <input type="text" name="player-3" id="player-3" placeholder="Jugador 3">
+              <input type="text" name="player-3" id="player-name" placeholder="Jugador 3">
             </div>
-            <div class="options-player-name">
+            <div class="options-player-name none" id="player">
               <img src="assets/icon/4.png" alt=""> 
               <label>Jugador 4</label>
-              <input type="text" name="player-4" id="player-4" placeholder="Jugador 4">
+              <input type="text" name="player-4" id="player-name" placeholder="Jugador 4">
             </div>
           </article>
-          <button class="options-button button">Jugar</button>
+          <button class="options-button button" id="play-button">Jugar</button>
       </div>
     </section>
 
-    <section class="game none">
+    <section class="game none" id="game">
       <div class="container">
-        <article class="game-question">
-          <h5>Pregunta 1/20</h5>
-          <p>
+        <article class="game-question" >
+          <h5 id="game-question-number">Pregunta 1/20</h5>
+          <p id="game-question">
             ¿Cual de estos escritores NO formo parte en la escritura de la saga "La rueda del Tiempo"?
           </p>
         </article>
@@ -112,19 +127,19 @@
             <div class="game-button-circle">
               <p>A</p>
             </div>
-            <p class="game-button-answer">George R.R. Martin</p>
+            <p class="game-button-answer" id="game-answer">George R.R. Martin</p>
           </button>
           <button class="game-button button">
             <div class="game-button-circle">
               <p>B</p>
             </div>
-            <p class="game-button-answer">Brandon Sanderson</p>
+            <p class="game-button-answer" id="game-answer">Brandon Sanderson</p>
           </button>
           <button class="game-button button">
             <div class="game-button-circle">
               <p>C</p>
             </div>
-            <p class="game-button-answer">Robert Jordan</p>
+            <p class="game-button-answer" id="game-answer">Robert Jordan</p>
           </button>
         </article>
         <aside class="game-time">

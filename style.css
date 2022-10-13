@@ -99,11 +99,6 @@ p {
   line-height: 1.6;
 }
 
-.none {
-  display: none;
-  opacity: 0;
-  pointer-events: none;
-}
 
 /* ***** Site Styles ***** */
 body{
@@ -300,6 +295,56 @@ input:focus {
   outline: none;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--background-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.modal h2{
+  text-align: center;
+}
+
+.modal-container {
+  background: var(--background-alpha-color);
+  padding: 1rem;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
+.modal-container ul{
+  margin: 1rem 0;
+  padding: 0;
+  font-family: var(--font-Nunito);
+}
+
+.modal-container li{
+  list-style: none;
+  margin: 0.5rem;
+  font-weight: 300;
+}
+
+.modal-container b{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.modal-container a{
+  padding: 0.5rem;  
+  text-align: center;
+}
+
 .options-game,
 .options-player {
   margin: 1rem 0;
@@ -344,6 +389,10 @@ input:focus {
 .options-game-number input,
 .options-game-player input{
   width: 3rem;
+}
+
+.options-player {
+  transition: all 0.3s;
 }
 
 .options-player-name {
@@ -438,4 +487,10 @@ input:focus {
     padding: 0.8rem 2rem;
   }
 
+}
+
+.none {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
 }

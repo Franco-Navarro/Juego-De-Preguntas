@@ -9,7 +9,7 @@ const questions = [
   ["¿En la frontera de que dos paises se ubica el Everest?","Nepal y Rusia","Nepal y China","China e India", 2],
   ["¿Que clase de abeja NO tiene aguijon?","Las obreras","La Reina","Los zanganos", 3],
   ["¿En donde se localiza la mina mas profunda del mundo?","Rusia","Sudamerica","Sudafrica", 3],
-  ["¿A partir de que acontecimiento historico se inicio la Edad Contemporanea?","Revolucion Francesa","Revolucion Española","Revolucion Rusa", 1],
+  ["¿A partir de que acontecimiento historico se inicio la Edad Contemporanea?","Revolucion Francesa","Revolucion Española","Revolucion Rusa",1],
   ["¿Que tipo de desarrollo embrionario poseen la mayoria de los mamiferos?","Viviparo","Oviparo","Ovoviviparo", 1],
   ['¿Quien escribio la novela "1984"?',"Stephen King","George Orwell","Ray Bradbury", 2],
   ["¿Cual de estos tres paises NO tiene desierto?","Libia","Alemania","España", 2],
@@ -107,7 +107,7 @@ const questions = [
   ["¿A que dios Egipcio se lo relacionaba con la muerte y la momificacion?","Amon","Anubis","Isis", 2],
   ["¿Cual fue el primer emperador Romano?","Augusto","Caligula","Neron", 1],
   ["¿De que estilo arquitectonico es el 'Arco del Triunfo de Paris'?","Barroco","Neoclasico","Gotico", 2],
-  ["¿Cual de estas sagas literarias aun en 2022 NO fue adaptada al Cine?","El Señor de los Anillos","Las crónicas de Narnia","Canción de hielo y fuego", 3],
+  ["¿Cual de estas sagas literarias aun en 2022 NO fue adaptada al Cine?","El Señor de los Anillos","Las crónicas de Narnia","Canción de hielo y fuego",3],
   ["¿Cual es la ciudad mas poblada de Sudamerica?","Bogota","Buenos Aires","Sao Pablo", 3],
-  ['¿Cual de estos escritores NO formo parte en la escritura de la saga "La Rueda del Tiempo"?',"George R.R. Martin","Brandon Sanderson","Robert Jordan", 1]
+  ['¿Cual de estos escritores NO formo parte en la escritura de la saga "La Rueda del Tiempo"?',"George R.R. Martin","Brandon Sanderson","Robert Jordan",1]
 ];
